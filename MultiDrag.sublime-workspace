@@ -1,0 +1,1433 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"webkit-tr",
+				"-webkit-transition-duration:   (property)"
+			],
+			[
+				"c",
+				"checklist-icon.png	w:118 h:118"
+			],
+			[
+				"statement",
+				"statementsElement"
+			],
+			[
+				"imm",
+				"immunogenicity-background.png	w:783 h:546"
+			],
+			[
+				"small",
+				"smallContent"
+			],
+			[
+				"img",
+				"img"
+			],
+			[
+				"a37_",
+				"a37_page_2/"
+			],
+			[
+				"bgo",
+				"bgo-bb	background-origin: border-box;"
+			],
+			[
+				"a37",
+				"a37_page_2/"
+			],
+			[
+				"webkit-tra",
+				"-webkit-transition:   (property)"
+			],
+			[
+				"gall",
+				"gallons"
+			],
+			[
+				"a21",
+				"a21_page_3/"
+			],
+			[
+				"lif",
+				"life_stages_popup/"
+			],
+			[
+				"a",
+				"a23/"
+			],
+			[
+				"getEle",
+				"getElementsByTagName  (function)"
+			],
+			[
+				"action",
+				"actionElements"
+			],
+			[
+				"qu",
+				"querySelectorAll"
+			],
+			[
+				"class",
+				"classList"
+			],
+			[
+				"add",
+				"add"
+			],
+			[
+				"moud",
+				"mouseDownX"
+			],
+			[
+				"parent",
+				"parentNode"
+			],
+			[
+				"query",
+				"querySelectorAll"
+			],
+			[
+				"quer",
+				"querySelector"
+			],
+			[
+				"ito",
+				"footnote-img-itoprid.png	w:21 h:25"
+			],
+			[
+				"ace",
+				"footnote-img-acetylcholinesterase.png	w:24 h:25"
+			],
+			[
+				"For",
+				"forEach"
+			],
+			[
+				"webkit-transfo",
+				"-webkit-transform-origin:   (property)"
+			],
+			[
+				"set",
+				"setInterval"
+			],
+			[
+				"webkittra",
+				"-webkit-transition:   (property)"
+			],
+			[
+				"no",
+				"nowrap  (value)"
+			],
+			[
+				"inline",
+				"inline-block  (value)"
+			],
+			[
+				"di",
+				"display  (variable)"
+			],
+			[
+				"perc",
+				"percentValue"
+			],
+			[
+				"ma",
+				"maskk.png	w:25 h:49"
+			],
+			[
+				"nt",
+				"nth-of-type(  (pseudo-class)"
+			],
+			[
+				"border",
+				"border-collapse:   (property)"
+			],
+			[
+				"for",
+				"for	for (…) {…}"
+			],
+			[
+				"wid",
+				"width:   (property)"
+			],
+			[
+				"inln",
+				"inline-block  (value)"
+			],
+			[
+				"font",
+				"font-size:   (property)"
+			],
+			[
+				"bo",
+				"bdf-ow	border-fit: overwrite;"
+			],
+			[
+				"bd",
+				"bd+	border: ${1:1px} ${2:solid} ${3:#000};"
+			],
+			[
+				"test",
+				"teststyle.css"
+			],
+			[
+				"bg",
+				"bg	background"
+			],
+			[
+				"list",
+				"list-n	list-style-type: none;"
+			],
+			[
+				"png",
+				"navActive.png	w:169 h:46"
+			],
+			[
+				"li",
+				"list	list-style-type"
+			],
+			[
+				"pos",
+				"position"
+			],
+			[
+				"hea",
+				"header	Tag"
+			],
+			[
+				"text",
+				"text-indent"
+			],
+			[
+				"te",
+				"text-align"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "index.html",
+			"settings":
+			{
+				"buffer_size": 256,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "js/js.js",
+			"settings":
+			{
+				"buffer_size": 50,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "css/style.css",
+			"settings":
+			{
+				"buffer_size": 117,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/Users/SakerONE/AppData/Roaming/Sublime Text 2/Packages/User/Default (Windows).sublime-keymap",
+			"settings":
+			{
+				"buffer_size": 1195,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 210.0,
+		"selected_items":
+		[
+			[
+				"clos",
+				"Project: Close"
+			],
+			[
+				"user",
+				"Preferences: Key Bindings - User"
+			],
+			[
+				"psa",
+				"Project: Save As"
+			],
+			[
+				"close",
+				"File: Close All"
+			],
+			[
+				"disable",
+				"Package Control: Disable Package"
+			],
+			[
+				"enable",
+				"Package Control: Enable Package"
+			],
+			[
+				"brow",
+				"Preferences: Browse Packages"
+			],
+			[
+				"package control",
+				"Package Control: Remove Package"
+			],
+			[
+				"d",
+				"Package Control: Disable Package"
+			],
+			[
+				"packag",
+				"Package Control: Disable Package"
+			],
+			[
+				"def",
+				"Preferences: Settings - Default"
+			],
+			[
+				"setting",
+				"Preferences: Settings - Default"
+			],
+			[
+				"proje",
+				"Project: Add Folder"
+			],
+			[
+				"pjsa",
+				"Project: Save As"
+			],
+			[
+				"",
+				"Package Control: Disable Package"
+			],
+			[
+				"packages",
+				"Preferences: Browse Packages"
+			],
+			[
+				"defa",
+				"Preferences: Key Bindings - Default"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"ena",
+				"SublimeCodeIntel: Enable Plugin"
+			],
+			[
+				"di",
+				"Package Control: Disable Package"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"remov",
+				"Package Control: Remove Package"
+			],
+			[
+				"dis",
+				"Package Control: Disable Package"
+			],
+			[
+				"rem",
+				"Package Control: Remove Package"
+			],
+			[
+				"url ",
+				"URL Decode"
+			],
+			[
+				"url",
+				"URL Decode"
+			],
+			[
+				"remo",
+				"Package Control: Remove Package"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"emmet",
+				"Emmet: Next Edit Point"
+			],
+			[
+				"mini",
+				"View: Toggle Minimap"
+			],
+			[
+				"side",
+				"View: Toggle Open Files in Side Bar"
+			]
+		],
+		"width": 522.0
+	},
+	"console":
+	{
+		"height": 125.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/D/nginx/html/test/css/style.css",
+		"/D/nginx/html/pfizer-enbrel-as/code/css/next_call.css",
+		"/D/nginx/html/pfizer-enbrel-as/code/js/next_call.js",
+		"/D/nginx/html/pfizer-enbrel-as/code/js/most_critical_roadblock.js",
+		"/D/nginx/html/pfizer-enbrel-as/modules/multidrag/obj.js",
+		"/D/nginx/html/MultiDrag/README.md",
+		"/D/nginx/html/MultiDrag/target.js",
+		"/D/nginx/html/MultiDrag/.gitignore",
+		"/D/nginx/html/pfizer-enbrel-as/modules/multidrag/target.js",
+		"/D/nginx/html/zoetis-calf-heifer/code/css/a22.css",
+		"/D/nginx/html/zoetis-calf-heifer/slides/a22.html",
+		"/D/nginx/html/zoetis-calf-heifer/slides/front_page.html",
+		"/C/Users/SakerONE/AppData/Roaming/Sublime Text 2/Packages/User/Default (Windows).sublime-keymap",
+		"/C/Users/SakerONE/AppData/Roaming/Sublime Text 2/Packages/User/Preferences.sublime-settings",
+		"/C/Users/SakerONE/Desktop/antidrug_antibodies.html",
+		"/C/Users/SakerONE/AppData/Roaming/Sublime Text 2/Packages/Default/Default (Windows).sublime-keymap",
+		"/D/nginx/html/zoetis-calf-heifer/slides/a34.html",
+		"/D/nginx/html/pfizer-enbrel-ra/code/css/the_enbrel_way.css",
+		"/D/nginx/html/zoetis-calf-heifer/code/css/a02.css",
+		"/D/nginx/html/zoetis-calf-heifer/code/css/fonts.css",
+		"/D/nginx/html/zoetis-calf-heifer/code/css/a34.css",
+		"/D/nginx/html/pfizer-enbrel-ra/code/js/the_enbrel_way.js",
+		"/D/nginx/html/pfizer-enbrel-ra/slides/the_enbrel_way.html",
+		"/D/nginx/html/pfizer-enbrel-ra/code/css/spc.css",
+		"/D/nginx/html/pfizer-enbrel-ra/slides/spc.html",
+		"/D/nginx/html/pfizer-enbrel-ra/code/css/treatment_popup_danish.css",
+		"/D/nginx/html/pfizer-enbrel-ra/slides/treatment_popup_danish.html",
+		"/D/nginx/html/pfizer-enbrel-ra/slides/eular_recommendations.html",
+		"/D/nginx/html/pfizer-enbrel-ra/references.json",
+		"/D/nginx/html/pfizer-enbrel-ra/code/js/immunogenicity.js",
+		"/D/nginx/html/pfizer-enbrel-ra/code/css/immunogenicity.css",
+		"/D/nginx/html/pfizer-enbrel-ra/slides/immunogenicity.html",
+		"/D/nginx/html/zoetis-calf-heifer/slides/a02.html",
+		"/D/nginx/html/zoetis-calf-heifer/code/css/main.css",
+		"/D/nginx/html/pfizer-enbrel-ra/code/js/translations.js",
+		"/D/nginx/html/zoetis-calf-heifer/slides/a07_housing_2.html",
+		"/D/nginx/html/zoetis-calf-heifer/slides/a07_housing_5.html",
+		"/D/nginx/html/zoetis-calf-heifer/slides/a04.html",
+		"/D/nginx/html/pfizer-enbrel-ra/presentation.json",
+		"/D/nginx/html/zoetis-calf-heifer/slides/nutrition_popup_2.html",
+		"/D/nginx/html/zoetis-calf-heifer/code/css/a07_housing_5.css",
+		"/D/nginx/html/zoetis-calf-heifer/code/css/a07_housing_2.css",
+		"/D/nginx/html/zoetis-calf-heifer/code/css/nutrition_popup_2.css",
+		"/D/nginx/html/pfizer-enbrel-ra/slides/response_failure.html",
+		"/D/nginx/html/pfizer-enbrel-ra/code/css/enbrel_improved_remission.css",
+		"/D/nginx/html/pfizer-enbrel-ra/slides/enbrel_improved_remission.html",
+		"/D/nginx/html/pfizer-enbrel-ra/code/css/patient_profile.css",
+		"/D/nginx/html/pfizer-enbrel-ra/index.html",
+		"/D/nginx/html/pfizer-enbrel-ra/code/js/splash_screen.js",
+		"/D/nginx/html/pfizer-enbrel-ra/slides/antidrug_antibodies_popup.html",
+		"/D/nginx/html/pfizer-enbrel-ra/slides/antidrug_antibodies.html",
+		"/D/nginx/html/pfizer-enbrel-ra/code/js/patient_profile.js",
+		"/D/nginx/html/pfizer-enbrel-ra/slides/patient_profile.html",
+		"/D/nginx/html/pfizer-enbrel-ra/code/css/patient-first-data.css",
+		"/C/Users/SakerONE/Desktop/SakerONE/translations.js",
+		"/D/nginx/html/pfizer-enbrel-ra/slides/treatment_success.html",
+		"/D/nginx/html/pfizer-enbrel-ra/code/js/spc.js",
+		"/D/nginx/html/pfizer-enbrel-ra/modules/indicators/indicators.css",
+		"/D/nginx/html/pfizer-enbrel-ra/code/css/main.css",
+		"/C/Users/SakerONE/Desktop/presentation.json",
+		"/D/nginx/html/pfizer-enbrel-ra/setup.js",
+		"/D/ed-u-ca-tion/web/test/css/test.css",
+		"/D/ed-u-ca-tion/web/test/test.html",
+		"/D/nginx/html/pfizer-enbrel-psa/code/css/fonts.css",
+		"/D/nginx/html/pfizer-enbrel-psa/code/css/next_call.css",
+		"/D/nginx/html/pfizer-enbrel-pso/code/css/annosta.css",
+		"/D/nginx/html/pfizer-enbrel-psa/code/css/summary.css",
+		"/D/nginx/html/pfizer-enbrel-psa/code/css/manifestations.css",
+		"/D/nginx/html/pfizer-enbrel-psa/code/css/treatment_paths.css",
+		"/D/nginx/html/pfizer-enbrel-psa/code/css/main.css",
+		"/D/nginx/html/pfizer-enbrel-psa/code/css/consequences.css",
+		"/D/nginx/html/pfizer-enbrel-psa/code/js/manifestations.js",
+		"/D/nginx/html/pfizer-enbrel-psa/references.json",
+		"/D/nginx/html/pfizer-enbrel-pso/slides/together/together_circle.html",
+		"/D/nginx/html/pfizer-enbrel-psa/all.css",
+		"/D/nginx/html/pfizer-enbrel-pso/code/css/immunogenicity.css",
+		"/D/nginx/html/pfizer-enbrel-psa/slides/molecules.html",
+		"/D/nginx/html/pfizer-enbrel-psa/code/js/translations.js",
+		"/D/nginx/html/pfizer-enbrel-pso/slides/immunogenicity.html",
+		"/D/nginx/html/pfizer-enbrel-psa/slides/immunogenicity.html",
+		"/D/nginx/html/pfizer-enbrel-psa/presentation.json",
+		"/D/nginx/html/pfizer-enbrel-psa/slides/consequences.html",
+		"/D/nginx/html/pfizer-enbrel-pso/code/js/app.slide.immunogenicity.js",
+		"/D/nginx/html/zoetis-calf-heifer/code/js/a37_page_2.js",
+		"/D/nginx/html/pfizer-enbrel-psa/index.html",
+		"/D/nginx/html/pfizer-enbrel-psa/code/js/consequences.js",
+		"/D/nginx/html/zoetis-calf-heifer/code/js/a30.js",
+		"/D/nginx/html/pfizer-enbrel-pso/code/js/translations.js",
+		"/D/nginx/html/pfizer-enbrel-pso/slides/annosta.html",
+		"/D/nginx/html/zoetis-calf-heifer/code/js/a18_respiratory_1.js",
+		"/D/nginx/html/zoetis-calf-heifer/code/js/a18_label_comparison.js",
+		"/D/nginx/html/zoetis-calf-heifer/code/js/a15_page_2.js",
+		"/D/nginx/html/zoetis-calf-heifer/code/js/maternity_pen.js",
+		"/D/nginx/html/pfizer-enbrel-pso/modules/slider/slider.js",
+		"/D/nginx/html/pfizer-enbrel-pso/_framework/lib/draggy.js",
+		"/D/nginx/html/pfizer-enbrel-psa/code/js/molecules.js",
+		"/D/nginx/html/pfizer-enbrel-psa/code/js/libraries/content-scroller.js",
+		"/D/nginx/html/pfizer-enbrel-pso/code/js/app.slide.annosta.js",
+		"/D/nginx/html/pfizer-enbrel-psa/slides/next_call.html",
+		"/D/nginx/html/pfizer-enbrel-jia/code/css/nine_years_data.css",
+		"/D/nginx/html/zoetis-calf-heifer/code/css/a21_page_3.css",
+		"/D/nginx/html/zoetis-calf-heifer/code/css/a21_page_4.css",
+		"/D/nginx/html/pfizer-enbrel-pso/index.html",
+		"/D/nginx/html/pfizer-enbrel-pso/code/js/app.slide.ninthy_six_weeks.js",
+		"/D/nginx/html/pfizer-enbrel-jia/code/js/translations.js",
+		"/D/nginx/html/pfizer-enbrel-jia/slides/nine_years_data.html",
+		"/D/nginx/html/pfizer-enbrel-pso/slides/scalp.html",
+		"/D/nginx/html/pfizer-enbrel-pso/slides/ninthy_six_weeks.html",
+		"/D/nginx/html/pfizer-enbrel-pso/presentation.json",
+		"/C/Users/SakerONE/Documents/enbrel_hoidon.css",
+		"/C/Users/SakerONE/Downloads/Amadeus-fontfacekit/demo.html",
+		"/D/nginx/html/pfizer-enbrel-pso/code/css/ninthy_six_weeks.css",
+		"/D/nginx/html/pfizer-enbrel-pso/all.css",
+		"/D/nginx/html/pfizer-enbrel-pso/slides/tb.html",
+		"/D/nginx/html/pfizer-enbrel-pso/slides/test.html",
+		"/D/nginx/html/zoetis-calf-heifer/slides/a21_page_1.html",
+		"/D/nginx/html/zoetis-calf-heifer/slides/a21_page_2.html",
+		"/D/nginx/html/pfizer-enbrel-psa/code/css/together/together_necessity.css",
+		"/D/nginx/html/pfizer-enbrel-psa/code/css/improved_summary_popups.css",
+		"/D/nginx/html/pfizer-enbrel-psa/code/css/immunogenicity_video.css",
+		"/D/nginx/html/pfizer-enbrel-psa/code/css/spcs_molecule_comparison.css",
+		"/D/nginx/html/zoetis-calf-heifer/slides/a21_page_4.html",
+		"/D/nginx/html/zoetis-calf-heifer/slides/a21_page_3.html",
+		"/D/nginx/html/pfizer-enbrel-jia/code/css/antidrug_antibodies.css",
+		"/D/nginx/html/pfizer-enbrel-jia/slides/molecules.html",
+		"/D/nginx/html/pfizer-enbrel-jia/slides/unique_moa.html",
+		"/D/nginx/html/pfizer-enbrel-jia/code/js/app.slide.adult_data_two.js",
+		"/D/nginx/html/pfizer-enbrel-jia/slides/antidrug_is_this_a_problem.html"
+	],
+	"find":
+	{
+		"height": 40.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"MultiDrag.",
+			"show",
+			"keys",
+			"ctrl+shift+l",
+			"command",
+			"ctrl+alt+up",
+			"#the ",
+			"Zeit",
+			"<br/>",
+			"h4 + p",
+			"spc",
+			".note",
+			"info-list",
+			"*rapid radiog",
+			"rapid radiog",
+			"Summary of ",
+			"immunogenecityGaugeText",
+			"display: none",
+			"immunogenicity:",
+			"immunogenicity",
+			"BentonSansComp",
+			"qrts",
+			"transition",
+			"img",
+			"figure",
+			"spc",
+			"enbrel",
+			"final",
+			"dmard-second",
+			"biologic",
+			"onBlur",
+			"final",
+			"data.title",
+			"setStatus",
+			"patient_data_popup_p_2",
+			"gotofinalstate",
+			"final",
+			"isFinalState",
+			"antidrug_antibodies",
+			"diminished_drug_levels",
+			"enbrel_stable_pred",
+			"142px",
+			"together_adherence",
+			"together_adhe",
+			"adherence",
+			"diminished_drug_levels",
+			"immunogenicity",
+			"the_enbrel_way_chapter",
+			"eular-guidelines",
+			"tnf",
+			"para o sucesso",
+			"risco de ",
+			"antidrug_antibodies_popup",
+			"discon",
+			"antidrug_antibodies",
+			"antidrug_antibodies.p_1",
+			"label>",
+			"actemra",
+			"risk of rrp",
+			"dmard-second",
+			"risk of rrp",
+			"risk",
+			".patient-data ",
+			"patient-data ",
+			".patient-data ",
+			".popup-patient-data .patient-data ",
+			"double-label",
+			"label",
+			".js",
+			"hide",
+			"().",
+			"()",
+			".js",
+			".css",
+			"indicators",
+			"hidden",
+			"class=\"hidden\"",
+			"hidden",
+			"opacity: 0",
+			"adherence",
+			"the_enbrel_way_chapter",
+			"problem",
+			"the_enbrel_way_chapter",
+			"summary_how",
+			"circle",
+			"together_program",
+			"curElement",
+			"document",
+			"add",
+			"statementsElement",
+			"signspot",
+			"17",
+			"statementsElement",
+			"15",
+			"0",
+			"border",
+			"potential con",
+			"footer",
+			"consequences:",
+			"consequences",
+			"annosta",
+			"sup",
+			"immuno",
+			"statementsElement",
+			"statements",
+			"{restrictX:",
+			"= ne",
+			"new Draggy",
+			"e",
+			"statements",
+			"position",
+			", slide.element.statements",
+			"app",
+			"currentDrag",
+			"addEvent(",
+			"#immunogenicity",
+			"immunogenicity",
+			"draggy",
+			"onDrop",
+			"onDrop:",
+			"onDrop",
+			"moveTo",
+			"reinit",
+			"slide.element",
+			"10s",
+			"s;",
+			"span",
+			".rate"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": true,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "index.html",
+					"settings":
+					{
+						"buffer_size": 256,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								183,
+								183
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		},
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 1,
+					"file": "js/js.js",
+					"settings":
+					{
+						"buffer_size": 50,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								46,
+								46
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "css/style.css",
+					"settings":
+					{
+						"buffer_size": 117,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								110,
+								110
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "/C/Users/SakerONE/AppData/Roaming/Sublime Text 2/Packages/User/Default (Windows).sublime-keymap",
+					"settings":
+					{
+						"buffer_size": 1195,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								142,
+								142
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JSON.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 36.0
+	},
+	"input":
+	{
+		"height": 33.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			],
+			[
+				1,
+				0,
+				2,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			0.598978149524,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"replace":
+	{
+		"height": 0.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"style",
+				"test/css/style.css"
+			],
+			[
+				"obj",
+				"pfizer-enbrel-as/modules/multidrag/obj.js"
+			],
+			[
+				"most_critical_roadblock",
+				"pfizer-enbrel-as/code/js/most_critical_roadblock.js"
+			],
+			[
+				"target",
+				"pfizer-enbrel-as/modules/multidrag/target.js"
+			],
+			[
+				"next_call",
+				"pfizer-enbrel-as/code/js/next_call.js"
+			],
+			[
+				"next",
+				"pfizer-enbrel-as/code/css/next_call.css"
+			],
+			[
+				"nextcalljs",
+				"code/js/next_call.js"
+			],
+			[
+				"a22css",
+				"code/css/a22.css"
+			],
+			[
+				"a22",
+				"slides/a22.html"
+			],
+			[
+				"front",
+				"slides/front_page.html"
+			],
+			[
+				"a34",
+				"zoetis-calf-heifer/slides/a34.html"
+			],
+			[
+				"the",
+				"pfizer-enbrel-ra/code/css/the_enbrel_way.css"
+			],
+			[
+				"the_e",
+				"pfizer-enbrel-ra/code/js/the_enbrel_way.js"
+			],
+			[
+				"theenbrel",
+				"pfizer-enbrel-ra/slides/the_enbrel_way.html"
+			],
+			[
+				"translations",
+				"pfizer-enbrel-ra/code/js/translations.js"
+			],
+			[
+				"spc",
+				"pfizer-enbrel-ra/code/css/spc.css"
+			],
+			[
+				"treatment_popda",
+				"pfizer-enbrel-ra/code/css/treatment_popup_danish.css"
+			],
+			[
+				"tra",
+				"pfizer-enbrel-ra/code/js/translations.js"
+			],
+			[
+				"danish",
+				"pfizer-enbrel-ra/slides/treatment_popup_danish.html"
+			],
+			[
+				"eular",
+				"pfizer-enbrel-ra/slides/eular_recommendations.html"
+			],
+			[
+				"tran",
+				"pfizer-enbrel-ra/code/js/translations.js"
+			],
+			[
+				"trans",
+				"pfizer-enbrel-ra/code/js/translations.js"
+			],
+			[
+				"imm",
+				"pfizer-enbrel-ra/code/js/immunogenicity.js"
+			],
+			[
+				"immunoge",
+				"pfizer-enbrel-ra/slides/immunogenicity.html"
+			],
+			[
+				"a02",
+				"zoetis-calf-heifer/slides/a02.html"
+			],
+			[
+				"fonts",
+				"zoetis-calf-heifer/code/css/fonts.css"
+			],
+			[
+				"main",
+				"zoetis-calf-heifer/code/css/main.css"
+			],
+			[
+				"nutr",
+				"zoetis-calf-heifer/code/css/nutrition_popup_2.css"
+			],
+			[
+				"nutrition",
+				"zoetis-calf-heifer/slides/nutrition_popup_2.html"
+			],
+			[
+				"fro",
+				"zoetis-calf-heifer/slides/front_page.html"
+			],
+			[
+				"pre",
+				"pfizer-enbrel-ra/presentation.json"
+			],
+			[
+				"treatment_popupcss",
+				"pfizer-enbrel-ra/code/css/treatment_popup_danish.css"
+			],
+			[
+				"treatment_pop",
+				"pfizer-enbrel-ra/slides/treatment_popup_danish.html"
+			],
+			[
+				"transl",
+				"pfizer-enbrel-ra/code/js/translations.js"
+			],
+			[
+				"pres",
+				"pfizer-enbrel-ra/presentation.json"
+			],
+			[
+				"a07_hos5",
+				"code/css/a07_housing_5.css"
+			],
+			[
+				"a07_housing_5",
+				"slides/a07_housing_5.html"
+			],
+			[
+				"a07_housing_2",
+				"code/css/a07_housing_2.css"
+			],
+			[
+				"a07_housing2",
+				"slides/a07_housing_2.html"
+			],
+			[
+				"a04",
+				"slides/a04.html"
+			],
+			[
+				"translation",
+				"code/js/translations.js"
+			],
+			[
+				"patient_profile",
+				"code/js/patient_profile.js"
+			],
+			[
+				"patient",
+				"slides/patient_profile.html"
+			],
+			[
+				"respons",
+				"slides/response_failure.html"
+			],
+			[
+				"antidpop",
+				"slides/antidrug_antibodies_popup.html"
+			],
+			[
+				"antidrug",
+				"slides/antidrug_antibodies.html"
+			],
+			[
+				"treatment_popup_danish",
+				"slides/treatment_popup_danish.html"
+			],
+			[
+				"anti",
+				"slides/antidrug_antibodies.html"
+			],
+			[
+				"enbrelremiscss",
+				"code/css/enbrel_improved_remission.css"
+			],
+			[
+				"enbrel_improved_remission",
+				"slides/enbrel_improved_remission.html"
+			],
+			[
+				"index",
+				"index.html"
+			],
+			[
+				"ind",
+				"index.html"
+			],
+			[
+				"spla",
+				"code/js/splash_screen.js"
+			],
+			[
+				"the_enbrel_way",
+				"slides/the_enbrel_way.html"
+			],
+			[
+				"antidrug_antibodies_popup",
+				"slides/antidrug_antibodies_popup.html"
+			],
+			[
+				"tr",
+				"slides/treatment_success.html"
+			],
+			[
+				"an",
+				"slides/antidrug_antibodies_popup.html"
+			],
+			[
+				"translat",
+				"code/js/translations.js"
+			],
+			[
+				"antid",
+				"slides/antidrug_antibodies.html"
+			],
+			[
+				"prese",
+				"presentation.json"
+			],
+			[
+				"presentation",
+				"presentation.json"
+			],
+			[
+				"inde",
+				"index.html"
+			],
+			[
+				".js",
+				"code/js/spc.js"
+			],
+			[
+				"splash",
+				"code/js/splash_screen.js"
+			],
+			[
+				"indica",
+				"modules/indicators/indicators.css"
+			],
+			[
+				"immunogenicity",
+				"code/css/immunogenicity.css"
+			],
+			[
+				"present",
+				"presentation.json"
+			],
+			[
+				"test.css",
+				"css/test.css"
+			],
+			[
+				"test",
+				"test.html"
+			],
+			[
+				"manifestations",
+				"pfizer-enbrel-psa/code/js/manifestations.js"
+			],
+			[
+				"refe",
+				"pfizer-enbrel-psa/references.json"
+			],
+			[
+				"together_cir",
+				"pfizer-enbrel-pso/slides/together/together_circle.html"
+			],
+			[
+				"transla",
+				"pfizer-enbrel-psa/code/js/translations.js"
+			],
+			[
+				"annosta",
+				"pfizer-enbrel-pso/slides/annosta.html"
+			],
+			[
+				"annost",
+				"pfizer-enbrel-pso/code/css/annosta.css"
+			],
+			[
+				"immunicity.js",
+				"pfizer-enbrel-pso/code/js/app.slide.immunogenicity.js"
+			],
+			[
+				"immunicityjs",
+				"pfizer-enbrel-pso/code/js/app.slide.immunogenicity.js"
+			],
+			[
+				"cons",
+				"pfizer-enbrel-psa/code/css/consequences.css"
+			],
+			[
+				"immujs",
+				"pfizer-enbrel-pso/code/js/app.slide.immunogenicity.js"
+			],
+			[
+				"scroller.js",
+				"pfizer-enbrel-psa/code/js/libraries/content-scroller.js"
+			],
+			[
+				"immunogejs",
+				"pfizer-enbrel-pso/code/js/app.slide.immunogenicity.js"
+			],
+			[
+				"immunogenicity.js",
+				"pfizer-enbrel-pso/code/js/app.slide.immunogenicity.js"
+			],
+			[
+				"all",
+				"pfizer-enbrel-psa/all.css"
+			],
+			[
+				"immuno",
+				"pfizer-enbrel-pso/code/css/immunogenicity.css"
+			],
+			[
+				"molecules",
+				"pfizer-enbrel-psa/slides/molecules.html"
+			],
+			[
+				"immunogeicity",
+				"pfizer-enbrel-pso/slides/immunogenicity.html"
+			],
+			[
+				"",
+				"presentation.json"
+			],
+			[
+				"summa",
+				"code/css/summary.css"
+			],
+			[
+				"manife",
+				"code/css/manifestations.css"
+			],
+			[
+				"trea",
+				"code/css/treatment_paths.css"
+			],
+			[
+				"app.slide.nin",
+				"code/js/app.slide.ninthy_six_weeks.js"
+			],
+			[
+				"nine",
+				"slides/nine_years_data.html"
+			],
+			[
+				"t",
+				"code/js/translations.js"
+			],
+			[
+				"all.css",
+				"all.css"
+			],
+			[
+				"nin",
+				"code/css/ninthy_six_weeks.css"
+			],
+			[
+				"nine_years",
+				"code/css/nine_years_data.css"
+			],
+			[
+				"improved_su",
+				"pfizer-enbrel-psa/code/css/improved_summary_popups.css"
+			],
+			[
+				"together_ne",
+				"pfizer-enbrel-psa/code/css/together/together_necessity.css"
+			],
+			[
+				"immunogenicity_video",
+				"pfizer-enbrel-psa/code/css/immunogenicity_video.css"
+			],
+			[
+				"spcs_molecule_comparison",
+				"pfizer-enbrel-psa/code/css/spcs_molecule_comparison.css"
+			],
+			[
+				"a21page3",
+				"zoetis-calf-heifer/code/css/a21_page_3.css"
+			],
+			[
+				"a21_page_4",
+				"zoetis-calf-heifer/code/css/a21_page_4.css"
+			],
+			[
+				"a21_",
+				"zoetis-calf-heifer/slides/a21_page_2.html"
+			],
+			[
+				"a21_page",
+				"zoetis-calf-heifer/slides/a21_page_1.html"
+			],
+			[
+				"molecule",
+				"slides/molecules.html"
+			],
+			[
+				"uni",
+				"slides/unique_moa.html"
+			],
+			[
+				"molecul",
+				"slides/molecules.html"
+			],
+			[
+				"molec",
+				"code/css/molecules_enbrel.css"
+			],
+			[
+				"non",
+				"code/css/nonabs_unique.css"
+			],
+			[
+				"antidru",
+				"slides/antidrug_treatment_success.html"
+			],
+			[
+				"a37_page_2",
+				"slides/a37_page_2.html"
+			],
+			[
+				"front_pag",
+				"zoetis-calf-heifer/slides/front_page.html"
+			],
+			[
+				"a37_page_2.css",
+				"zoetis-calf-heifer/code/css/a37_page_2.css"
+			],
+			[
+				"a37_page",
+				"zoetis-calf-heifer/slides/a37_page_2.html"
+			],
+			[
+				"mo",
+				"pfizer-enbrel-psa/code/css/molecules.css"
+			],
+			[
+				"immu",
+				"pfizer-enbrel-psa/code/css/immunogenicity.css"
+			],
+			[
+				"remain_on",
+				"pfizer-enbrel-psa/code/css/remain_on_enbrel_effective.css"
+			],
+			[
+				"remain_",
+				"pfizer-enbrel-psa/code/css/remain_on_enbrel.css"
+			],
+			[
+				"remain",
+				"pfizer-enbrel-psa/code/css/remain_on_enbrel.css"
+			],
+			[
+				"gui",
+				"pfizer-enbrel-psa/code/css/guidelines.css"
+			],
+			[
+				"prob",
+				"pfizer-enbrel-psa/code/css/problem.css"
+			],
+			[
+				"getting",
+				"pfizer-enbrel-together/code/css/getting_started.css"
+			],
+			[
+				"nece",
+				"pfizer-enbrel-together/code/css/necessity.css"
+			],
+			[
+				"patient_s",
+				"pfizer-enbrel-together/code/css/patient_support_helps_popup.css"
+			],
+			[
+				"how_psa",
+				"pfizer-enbrel-psa/code/css/how_psa_affects_peoples_lives.css"
+			],
+			[
+				"improved",
+				"pfizer-enbrel-psa/code/css/improved_summary_popups.css"
+			],
+			[
+				"improve",
+				"pfizer-enbrel-psa/slides/improved_work_popup.html"
+			],
+			[
+				"how",
+				"code/css/how_you_get_involved.css"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+			[
+				"",
+				"/D/ed-u-ca-tion/web/test/test.sublime-project"
+			],
+			[
+				"test",
+				"/D/ed-u-ca-tion/web/test/test.sublime-project"
+			],
+			[
+				"final",
+				"/D/ed-u-ca-tion/web/qap/final/final.sublime-project"
+			],
+			[
+				"slider",
+				"/D/ed-u-ca-tion/web/qap/slider/slider.sublime-project"
+			],
+			[
+				"js1",
+				"/D/ed-u-ca-tion/web/qap/js1/js1.sublime-project"
+			],
+			[
+				"5",
+				"/D/ed-u-ca-tion/web/qap/task5/task5.sublime-project"
+			],
+			[
+				"2nd",
+				"/D/ed-u-ca-tion/web/qap/2ndTask/2ndTask.sublime-project"
+			],
+			[
+				"2ndt",
+				"/D/ed-u-ca-tion/web/qap/2ndTask/2ndTask.sublime-project"
+			],
+			[
+				"new",
+				"/D/ed-u-ca-tion/web/newTest/newTest.sublime-project"
+			],
+			[
+				"progres",
+				"/D/ed-u-ca-tion/web/markedUpPSDs/progress/progress.sublime-project"
+			],
+			[
+				"qap",
+				"/D/ed-u-ca-tion/web/qap/qapMarkup(html)/qapMarkup.sublime-project"
+			],
+			[
+				"1",
+				"/C/Users/SakerONE/Documents/1/1/1.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"show_minimap": false,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 210.0,
+	"status_bar_visible": true
+}
