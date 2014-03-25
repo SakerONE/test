@@ -1,6 +1,25 @@
 document.addEventListener("DOMContentLoaded", function(){
 	"use strict";
 
+	var data = [
+		{
+			value: 50,
+			color: "red"
+		},
+		{
+			value: 50,
+			color: "blue"
+		}
+	],
+	element = document.getElementsByClassName("pie-slider")[0],
+	pieSlider = new PieSlider(element, data);
+
+	element.addEventListener("click", function(event){
+		console.log(event);
+	});
+
+
+
 /*	var x = 100, y = 100;
 
 	document.addEventListener("click", function(event){
@@ -15,7 +34,7 @@ document.addEventListener("DOMContentLoaded", function(){
 	});
 */
 
-	var angles = [-350, 190],
+/*	var angles = [-350, 190],
 		canvas = document.getElementsByTagName("canvas")[0],
 		context = canvas.getContext("2d"),
 		radius = canvas.width / 2;
@@ -53,5 +72,5 @@ document.addEventListener("DOMContentLoaded", function(){
 
 	function convertAngle(angle){
 		return (angle - 90) * Math.PI / 180;
-	}
+	}*/
 });
