@@ -4,11 +4,15 @@ document.addEventListener("DOMContentLoaded", function(){
 	var data = [
 		{
 			value: 50,
-			color: "green"
+			color: "green",
+			label: "blaasdf blaas<br><output>N</output>",
+			smallValue: 20
 		},
 		{
 			value: 50,
-			color: "blue"
+			color: "blue",
+			label: "N",
+			smallValue: 10
 		}
 	],
 	element = document.getElementsByClassName("pie-slider")[0],

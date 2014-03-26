@@ -1,3 +1,6 @@
+body{
+	background: black;
+}
 .pie-slider{
 	position: relative;
 	width: 300px;
@@ -16,16 +19,27 @@
 	-webkit-transform-origin: 50% 100%;
 	pointer-events: none;
 }
-.ps-handler.active{
-	/*z-index: 1;*/
-}
 .ps-label{
 	position: absolute;
-	left: 49%;
+	top: 0;
+	width: 2px;
+	left: 149px;
+	color: white;
+	font-weight: bold;
+	margin: 0;
+	padding: 0;
+	height: 150px;
+	-webkit-transform-origin: 50% 100%;
+	text-align: center;
 }
 .ps-output{
 	position: absolute;
-	left: -50%;
+	top: 50px;
+	left: -50px;
+	width: 100px;
+}
+.small-value .ps-output{
+	top: -80px;
 }
 .ps-handler::before{
 	content: "";
