@@ -1,43 +1,13 @@
 document.addEventListener("DOMContentLoaded", function(){
 	"use strict";
 
-	var data = [
-		{
-			value: 50,
-			color: "green"
-		},
-		{
-			value: 50,
-			color: "blue"
-		}
-	],
-	element = document.getElementsByClassName("pie-slider")[0],
-	pieSlider = new PieSlider(element, data);
 
-/*	var values = [50, 100, 100],
-		angles = [0], i, len = values.length - 1;
+	var canvas = document.getElementsByTagName('canvas')[0],
+		context = canvas.getContext('2d');
 
-	for(i = 0; i < len; i++){
+	context.scale(1, 0.1);
 
-	}*/
+	context.fillRect(0, 0, 250, 250);
 
-
-/*	var angles = [-350, 190],
-		canvas = document.getElementsByTagName("canvas")[0],
-		context = canvas.getContext("2d"),
-		radius = canvas.width / 2;
-
-	context.fillStyle = "blue";
-
-	context.beginPath();
-	context.moveTo(radius, radius);
-	context.arc(radius, radius, radius, convertAngle(0), convertAngle(-0.0000000000000000001));
-	context.lineTo(radius, radius);
-	context.fill();
-
-
-
-	function convertAngle(angle){
-		return (angle - 90) * Math.PI / 180;
-	}
-*/});
+	// context.clearRect(-250, -250, 250, 250);
+});

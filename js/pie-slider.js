@@ -1,4 +1,4 @@
-(function(){
+/*(function(){
 	"use strict";
 
 	var degToRad = Math.PI / 180, radToDeg = 180 / Math.PI, pctToDeg = 360 / 100, degToPct = 100 / 360;
@@ -223,10 +223,24 @@
 	Handler.prototype.move = function(event){
 		var angle = this.getAngle(event);
 
-		if(this.isInRange(angle)){
+		if(this.isInRange(angle) && this.limit(angle)){
 			this.setTo(angle);
 			this.onchange();
 		}
+	};
+
+	Handler.prototype.limit = function(angle){
+/*		var temp = angle;
+
+		if(Math.abs(angle - this.from) > 180 && this.prev < (this.from + 90)){
+			angle -= 360;
+		}
+		if(angle < this.from && this.prev < (this.from + 90)){
+			return false;
+		}
+
+		this.prev = temp;*/
+		return true;
 	};
 
 	Handler.prototype.isInRange = function(angle){
@@ -239,6 +253,7 @@
 		if(angle < from){
 			angle += 360;
 		}
+
 
 		return angle >= from && angle <= to;
 	};
@@ -264,4 +279,4 @@
 	};
 
 	window.PieSlider = PieSlider;
-})();
+})();*/
