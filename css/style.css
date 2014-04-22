@@ -1,0 +1,68 @@
+body{
+	background: black;
+}
+.pie-slider{
+	position: relative;
+	width: 300px;
+	height: 300px;
+	background: yellow;
+	border-radius: 50%;
+}
+.ps-handler{
+	position: absolute;
+	left: 149px;
+	top: 0;
+	width: 2px;
+	height: 150px;
+	background: white;
+	-webkit-transform: translate3d(0, 0, 0) rotate3d(0, 0, 1, 0deg);
+	-webkit-transform-origin: 50% 100%;
+	pointer-events: none;
+}
+.ps-label{
+	position: absolute;
+	top: 0;
+	width: 2px;
+	left: 149px;
+	color: white;
+	font-weight: bold;
+	margin: 0;
+	padding: 0;
+	height: 150px;
+	-webkit-transform-origin: 50% 100%;
+	text-align: center;
+}
+.ps-output{
+	position: absolute;
+	top: 50px;
+	left: -50px;
+	width: 100px;
+}
+.small-value .ps-output{
+	top: -80px;
+}
+.ps-handler::before{
+	content: "";
+	position: absolute;
+	left: -25px;
+	top: -25px;
+	width: 50px;
+	height: 50px;
+	background: red;
+	border-radius: 50%;
+	pointer-events: auto;
+}
+.ps-handler-1::before{
+	background: orange;
+}
+/* pie-slider */
+ .pie-slider canvas{
+	position: absolute;
+/* 	left: 0;
+	top: 0;
+	-webkit-transform-origin: 0 0;
+	-webkit-transform: scale(0.5) translate3d(0, 0, 0);
+	 */
+	 /*-webkit-transform: translate3d(0, 0, 0);*/
+	 border-radius: 50%;
+}

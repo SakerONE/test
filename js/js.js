@@ -1,7 +1,6 @@
 document.addEventListener("DOMContentLoaded", function(){
 	"use strict";
 
-
 	var canvas = document.getElementsByTagName('canvas')[0],
 		context = canvas.getContext('2d');
 

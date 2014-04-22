@@ -1,7 +1,8 @@
 /*(function(){
 	"use strict";
 
-	var degToRad = Math.PI / 180, radToDeg = 180 / Math.PI, pctToDeg = 360 / 100, degToPct = 100 / 360;
+	var degToRad = Math.PI / 180, radToDeg = 180 / Math.PI,
+		pctToDeg = 360 / 100, degToPct = 100 / 360;
 
 	function PieSlider(element, data){
 		this.element = element;
@@ -10,7 +11,6 @@
 		this.values = data.map(function(sector){
 			return sector.value;
 		});
-		this.handlers = [];
 
 		this.init();
 	}
@@ -77,7 +77,7 @@
 	PieSlider.prototype.appendHandlers = function(){
 		var index = 0, len = this.length,
 			fragment = document.createDocumentFragment(),
-			handler, that = this;
+			handler, handlers = [], that = this;
 
 		for(; index < len; index++){
 			handler = new Handler(index, this.center);
@@ -91,10 +91,11 @@
 				that.updateLimits(this.index, this.angle);
 			};
 
-			this.handlers.push(handler);
+			handlers.push(handler);
 			fragment.appendChild(handler.element);
 		}
 
+		this.handlers = handlers;
 		this.element.appendChild(fragment);
 	};
 
@@ -105,10 +106,10 @@
 
 		for(; index < len; index++){
 			label = document.createElement("p");
-			label.className = "ps-label";
+			label.className = "ps-label ps-label" + (index + 1);
 
 			output = document.createElement("output");
-			output.innerHTML = this.data[index].value;
+			output.className = "ps-output ps-output" + (index + 1);
 
 			labels.push(label);
 			outputs.push(output);
@@ -140,7 +141,7 @@
 		angles.push(angles[0]);
 
 		this.updateValues(angles);
-		this.updateLabels();
+		this.updateLabels(angles);
 		this.redrawCanvas(angles);
 	};
 
@@ -152,11 +153,19 @@
 		}
 	};
 
-	PieSlider.prototype.updateLabels = function(){
-		var index = 0, len = this.length;
+	PieSlider.prototype.updateLabels = function(angles){
+		var index = 0, len = this.length, middle;
 
 		for(; index < len; index++){
-			this.outputs[index].innerHTML = this.values[index];
+			if(this.values[index] < this.data[index].smallValue){
+				this.labels[index].classList.add("small-value");
+			}else{
+				this.labels[index].classList.remove("small-value");
+			}
+			middle = getMiddle(angles[index], angles[index + 1]);
+			setAngle(this.labels[index], middle);
+			setAngle(this.outputs[index], -middle);
+			this.outputs[index].innerHTML = this.data[index].label.replace("N", this.values[index]);
 		}
 	};
 
@@ -183,11 +192,21 @@
 	}
 
 	function getValue(from, to){
+		to = check(from, to);
+		return Math.round((to - from) * degToPct);
+	};
+
+	function getMiddle(from, to){
+		to = check(from, to);
+		return from + Math.abs(from - to) / 2;
+	}
+
+	function check(from, to){
 		if(to < from){
 			to += 360;
 		}
-		return Math.round((to - from) * degToPct);
-	};
+		return to;
+	}
 
 	function Handler(index, center){
 		this.index = index;
@@ -202,6 +221,9 @@
 	}
 
 	Handler.prototype.handleEvent = function(event){
+		if(touch.isTouch && event.touches.length > 1){
+			return;
+		}
 		switch(event.type){
 			case touch.events.start:
 				this.active = true;
@@ -269,14 +291,14 @@
 		return angle;
 	};
 
-	Handler.prototype.setElement = function(){
-		this.element.style.webkitTransform = 'translate3d(0, 0, 0) rotate3d(0, 0, 1, ' + this.angle + 'deg)';
-	};
-
 	Handler.prototype.setTo = function(angle){
 		this.angle = angle;
-		this.setElement();
+		setAngle(this.element, this.angle);
 	};
+
+	function setAngle(element, angle){
+		element.style.webkitTransform = 'rotate3d(0, 0, 1, ' + angle + 'deg)';
+	}
 
 	window.PieSlider = PieSlider;
 })();*/
