@@ -31,7 +31,7 @@ asdf
 asdfasdfasdf
 asdfasdfasdfasdf
 
-asdf asdf asdf Lorem ipsum dolor sit amet, consectetur adipisicing elit. [1] Omnis, officiis, sit, necessitatibus, ab eligendi placeat fugit odio perferendis amet nihil cumque eum nemo et a ipsa soluta [2] repudiandae. Distinctio, consectetur. [3]
+asdf asdf asdf Lorem ipsum dolor sit amet, consectetur adipisicing elit. [google][1] Omnis, officiis, sit, necessitatibus, ab eligendi placeat fugit odio perferendis amet nihil cumque eum nemo et a ipsa soluta [youtube][2] repudiandae. Distinctio, consectetur. [translate][3]
 
 ![А мне норм][4]
 
