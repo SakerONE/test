@@ -8,7 +8,7 @@
 
 <h2 id="bars">Bars Graph</h2>
 
-### Description
+<!-- ### Description
 Рисует круговые диаграммы. Есть 2 вида:
 
 + Pie <br><img width="100" src="http://i.stack.imgur.com/vcTcZ.png" alt="pie" title="pie">
@@ -25,11 +25,11 @@
 
 ### Использование
 
-	<element rv-graphs="model"></element>
+    <element rv-graphs="model"></element> -->
 
 <h2 id="linear">Linear Graph</h2>
 
-### Description
+<!-- ### Description
 Рисует круговые диаграммы. Есть 2 вида:
 
 + Pie <br><img width="100" src="http://i.stack.imgur.com/vcTcZ.png" alt="pie" title="pie">
@@ -42,11 +42,11 @@
 
 ### Подключение
 
-	<link rv-component="components/graphs">
+    <link rv-component="components/graphs">
 
 ### Использование
 
-	<element rv-graphs="model"></element>
+    <element rv-graphs="model"></element> -->
 
 <h2 id="pie">Pie Graph</h2>
 
@@ -116,9 +116,9 @@
 
 Анимация происходит автоматически при заходе на слайд. Чтобы перерисовать чарт с новыми `data` и `options` нужно в `scope.pie` присвоить новый объект.
 
-[bars]: #pie
-[linear]: #linear
-[pie]: #pie
+[bars]: #bars-graph
+[linear]: #linear-graph
+[pie]: #pie-graph
 
 [pieImg]: http://i.stack.imgur.com/vcTcZ.png
 [doughnutImg]: http://i.stack.imgur.com/yUzo5.png
