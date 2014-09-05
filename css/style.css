@@ -1,68 +1,49 @@
-body{
-	background: black;
+.flip-container{
+	width: 500px;
+	height: 200px;
+	-webkit-perspective: 800px;
 }
-.pie-slider{
-	position: relative;
-	width: 300px;
-	height: 300px;
+#flip{
+	/*position: absolute;*/
+	width: 500px;
+	height: 200px;
+	-webkit-transform-style: preserve-3d;
+	-webkit-transform: rotateY(0) translate3d(0, 0, 0);
+	-webkit-transition-duration: 500ms;
+}
+.side{
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 500px;
+	height: 200px;
+	-webkit-backface-visibility: hidden;
+	/*overflow: hidden;*/
+}
+#front{
+	-webkit-transform: rotateY(0) translate3d(0, 0, 0);
 	background: yellow;
-	border-radius: 50%;
 }
-.ps-handler{
-	position: absolute;
-	left: 149px;
-	top: 0;
-	width: 2px;
-	height: 150px;
-	background: white;
-	-webkit-transform: translate3d(0, 0, 0) rotate3d(0, 0, 1, 0deg);
-	-webkit-transform-origin: 50% 100%;
-	pointer-events: none;
-}
-.ps-label{
-	position: absolute;
-	top: 0;
-	width: 2px;
-	left: 149px;
-	color: white;
-	font-weight: bold;
-	margin: 0;
-	padding: 0;
-	height: 150px;
-	-webkit-transform-origin: 50% 100%;
-	text-align: center;
-}
-.ps-output{
-	position: absolute;
-	top: 50px;
-	left: -50px;
-	width: 100px;
-}
-.small-value .ps-output{
-	top: -80px;
-}
-.ps-handler::before{
-	content: "";
-	position: absolute;
-	left: -25px;
-	top: -25px;
-	width: 50px;
-	height: 50px;
-	background: red;
-	border-radius: 50%;
-	pointer-events: auto;
-}
-.ps-handler-1::before{
+#back{
+	-webkit-transform: rotateY(180deg) translate3d(0, 0, 0);
 	background: orange;
 }
-/* pie-slider */
- .pie-slider canvas{
-	position: absolute;
-/* 	left: 0;
-	top: 0;
-	-webkit-transform-origin: 0 0;
-	-webkit-transform: scale(0.5) translate3d(0, 0, 0);
-	 */
-	 /*-webkit-transform: translate3d(0, 0, 0);*/
-	 border-radius: 50%;
+#flip.flipped{
+	-webkit-transform: rotateY(180deg) translate3d(0, 0, 0);
 }
+.some{
+	position: absolute;
+	width: 100%;
+	-webkit-transform: translate3d(0, 1000px, 0);
+	/*opacity: 0;*/
+	text-align: center;
+	font-size: 30px;
+	margin: 0;
+}
+.animate .some{
+	-webkit-transition-duration: 500ms;
+	-webkit-transition-delay: 500ms;
+	-webkit-transform: translate3d(0, 0, 0);
+	/*opacity: 1;*/
+}
+

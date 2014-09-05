@@ -1,12 +1,11 @@
-document.addEventListener("DOMContentLoaded", function(){
-	"use strict";
+var flipped = false;
 
-	var canvas = document.getElementsByTagName('canvas')[0],
-		context = canvas.getContext('2d');
+setTimeout(function(){
+	front.classList.add('animate');
+}, 500);
 
-	context.scale(1, 0.1);
-
-	context.fillRect(0, 0, 250, 250);
-
-	// context.clearRect(-250, -250, 250, 250);
+button.addEventListener("click", function(){
+	flip.classList.toggle('flipped');
+	front.classList.toggle('animate');
+	back.classList.toggle('animate');
 });
