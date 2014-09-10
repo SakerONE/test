@@ -8,7 +8,6 @@ article{
   position: relative;
   -webkit-transform: translate3d(0, 0, 0);
   left: 0px;
-  overflow: hidden;
   height: 200px;
   width: 500px;
 }
@@ -21,7 +20,7 @@ article{
   left: 0;
   top: 0;
   -webkit-transform: scale(0.5);
-  -webkit-transition: -webkit-transform 500ms, box-shadow 600ms;
+  -webkit-transition: -webkit-transform 500ms, outline 600ms;
 }
 #front.animate{
   /*left: 1px;*/
@@ -29,9 +28,56 @@ article{
   /*-webkit-animation: 500ms anim forwards;*/
   -webkit-transform: scale(1);
   /*left: 1px;*/
-  box-shadow: 1px 1px 0 transparent;
+
+  outline: 1px solid transparent;
+  /*box-shadow: 1px 1px 0 transparent;*/
 }
 article.animate{
   background: yellow;
   /*left: 1px;*/
 }
+
+
+
+
+
+
+
+
+/* .flip-container{
+  position: relative;
+  -webkit-perspective: 800;
+  -webkit-transform-style: preserve-3d;
+  z-index: 1;
+}
+.flip-container .side{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: inherit;
+  height: inherit;
+  -webkit-backface-visibility: hidden;
+  -webkit-transition-duration: 500ms;
+  -webkit-transition: -webkit-transform 500ms;
+  -webkit-transform: translate3d(0, 0, 0) rotateY(0);
+}
+.flip-button{
+  position: absolute;
+  -webkit-transform: translate3d(0, 0, 1px);
+}
+.flip-container .side.back,
+.flip-container.flipped .side.front{
+  -webkit-transform: translate3d(0, 0, 0) rotateY(180deg);
+  outline: 1px solid transparent;
+}
+.flip-container.flipped .side.back{
+  -webkit-transform: translate3d(0, 0, 0) rotateY(360deg);
+}
+.flip-container.horizontal .side.back,
+.flip-container.horizontal.flipped .side.front{
+  -webkit-transform: translate3d(0, 0, 0) rotateX(180deg);
+  outline: 1px solid transparent;
+}
+.flip-container.horizontal.flipped .side.back{
+  -webkit-transform: translate3d(0, 0, 0) rotateX(360deg);
+} */
