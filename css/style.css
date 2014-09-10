@@ -1,49 +1,29 @@
-.flip-container{
-	width: 500px;
-	height: 200px;
-	-webkit-perspective: 800px;
-}
-#flip{
-	/*position: absolute;*/
-	width: 500px;
-	height: 200px;
-	-webkit-transform-style: preserve-3d;
-	-webkit-transform: rotateY(0) translate3d(0, 0, 0);
-	-webkit-transition-duration: 500ms;
-}
-.side{
-	position: absolute;
-	left: 0;
-	top: 0;
-	width: 500px;
-	height: 200px;
-	-webkit-backface-visibility: hidden;
-	/*overflow: hidden;*/
-}
-#front{
-	-webkit-transform: rotateY(0) translate3d(0, 0, 0);
-	background: yellow;
-}
-#back{
-	-webkit-transform: rotateY(180deg) translate3d(0, 0, 0);
-	background: orange;
-}
-#flip.flipped{
-	-webkit-transform: rotateY(180deg) translate3d(0, 0, 0);
-}
-.some{
-	position: absolute;
-	width: 100%;
-	-webkit-transform: translate3d(0, 1000px, 0);
-	/*opacity: 0;*/
-	text-align: center;
-	font-size: 30px;
-	margin: 0;
-}
-.animate .some{
-	-webkit-transition-duration: 500ms;
-	-webkit-transition-delay: 500ms;
-	-webkit-transform: translate3d(0, 0, 0);
-	/*opacity: 1;*/
+article{
+  position: relative;
+  -webkit-transform: translate3d(0, 0, 0);
+  left: 0px;
+  overflow: hidden;
 }
 
+#front{
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  background: orange;
+  left: 0;
+  top: 0;
+  -webkit-transform: scale(0.5);
+  -webkit-transition-duration: 0.5s;
+  -webkit-transition-timing-function: linear;
+  -webkit-transition-property: -webkit-transform;
+}
+#front.animate{
+  /*left: 1px;*/
+  /*box-shadow: 1px 1px 1px black;*/
+  /*-webkit-animation: 500ms anim forwards;*/
+  -webkit-transform: scale(1);
+}
+article.animate{
+  background: yellow;
+  /*left: 1px;*/
+}

@@ -1,11 +1,21 @@
-var flipped = false;
+var flag = false;
 
-setTimeout(function(){
-	front.classList.add('animate');
-}, 500);
-
-button.addEventListener("click", function(){
-	flip.classList.toggle('flipped');
+toggle.addEventListener("click", function(){
 	front.classList.toggle('animate');
-	back.classList.toggle('animate');
 });
+
+front.addEventListener("webkitTransitionEnd", function(event){
+	// article.classList.toggle('animate');
+	setTimeout(function(){
+		if(flag){
+			front.style.left = '0px';
+		}else{
+			front.style.left = '100px';
+		}
+		flag = !flag;
+	}, 100);
+}, true);
+
+/*setInterval(function(){
+	front.classList.toggle('animate');
+}, 2000);*/
